@@ -1,11 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap')
-@font-face{
-    font-family: raleway;
-    src: url(../fonts/raleway/static/Raleway-Regular.ttf);
-    src: url(../fonts/raleway/static/Raleway-Black.ttf);
-    src: url(../fonts/raleway/static/Raleway-Italic.ttf);
-}
+    
 img{
     width: 150px;
     height: 150px;
@@ -38,10 +32,4 @@ main{
     background-color: #782221;
     width: 350px;
 
-}
-h1{
-    font-family:"lato";
-}
-p{
-    font-family: "raleway";
 }
