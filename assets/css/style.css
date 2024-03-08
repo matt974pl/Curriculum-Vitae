@@ -1,9 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 @font-face{
     font-family: "raleway";
-    src: url(../fond/Raleway/static/Raleway-Regular.ttf);
-    src: url(../fond/Raleway/static/Raleway-Bold.ttf);
-    src: url(../fond/Raleway/static/Raleway-Italic.ttf);
+    src: url(../fond/Raleway/Raleway-VariableFont_wght.ttf);
+    src: url(../fond/Raleway/Raleway-Italic-VariableFont_wght.ttf);
 }    
 img{
     width: 150px;
@@ -14,14 +13,18 @@ img{
 }
 nav{
     background-color: #2c1d27;
+    background-size:auto;
     width: 1160px;
-    height: 50px;
-    
+    height: 100px;
+    margin: 0%; 
 }
 body{
     width: 1160px;
     text-align: center;
     background-color: #782221;
+    background-size: auto;
+    color: white;
+    
 }
 main{
     background-color: white;
@@ -32,9 +35,23 @@ main{
 #principal{
     width: 810px;
     border-right:solid black 3px;
+    margin-left: 20px;
+    color: black;
 }
 #secondaire{
     background-color: #782221;
     width: 350px;
+    padding-right: 50px;
 
 }
+h1{
+    font-family: "lato";
+    background-color: #dbc2a4;
+    text-indent: 50px;
+    color: black;
+}
+p{
+    font-family: "raleway";
+    text-indent: 20px;
+}
+
